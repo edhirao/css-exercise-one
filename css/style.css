@@ -31,11 +31,15 @@ h3 {
 
 .element {
   background-color: green;
-  height: 100px;
-  margin: 10px 0; /* added ":" after margin */
-  width: 100%;
 } /* added "}" */
 
 .element-last-three {
  background-color: red; /* alters color of last 3 divs */ 
+}
+
+.element,
+.element-last-three {
+  height: 100px;
+  margin: 10px 0; /* added ":" after margin */
+  width: 100%;
 }
